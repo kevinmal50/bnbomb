@@ -14,10 +14,10 @@
 #timer {
   position: relative;
   margin-top: 15%;
-  margin-left: 20%;
+  margin-left: 25%;
   margin-right: 20%;
   font-family: 'Bombtext';
-  font-size: 13rem;
+  font-size: 7rem;
   font-weight: 100;
   color: #ff0000;
   text-align: center;
@@ -37,7 +37,7 @@
   margin-left: 2%;
   margin-right: 2%;
   font-family: 'Bombtext';
-  font-size: 3rem;
+  font-size: 2rem;
   font-weight: 100;
   border: 1px solid #868686;
   color: #868686;
@@ -70,7 +70,7 @@
 
 #defusebtn {
   display: flex;
-  margin-left: 37%;
+  margin-left: 29%;
   border-radius: 50px;
   white-space: nowrap;
   position: relative;
@@ -84,7 +84,7 @@
 #bunkerbtn{
     
     display: flex;
-    margin-left: 42%;
+    margin-left: 40%;
     margin-top: 10%;
     border-radius: 50px;
     white-space: nowrap;
