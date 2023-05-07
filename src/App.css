@@ -1,0 +1,100 @@
+@font-face {
+  font-family: 'Bombtext';
+  src: url('/src/utils/fonts/alarm_clock/alarm\ clock.ttf');
+}
+
+.home {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+
+  background: radial-gradient(50% 50% at 50% 50%, #303030 57%, #141414 100%);
+}
+
+#timer {
+  position: relative;
+  margin-top: 15%;
+  margin-left: 20%;
+  margin-right: 20%;
+  font-family: 'Bombtext';
+  font-size: 13rem;
+  font-weight: 100;
+  color: #ff0000;
+  text-align: center;
+  border: 1% solid #ff0000;
+}
+
+#cnbtn {
+  position: relative;
+  top: 2%;
+  margin-left: 90%;
+
+}
+
+#rules {
+  position: relative;
+  top: 10%;
+  margin-left: 2%;
+  margin-right: 2%;
+  font-family: 'Bombtext';
+  font-size: 3rem;
+  font-weight: 100;
+  border: 1px solid #868686;
+  color: #868686;
+}
+
+#notHolder {
+  position: relative;
+  margin-top: 20%;
+  margin-left: 2%;
+  margin-right: 2%;
+  font-family: 'Bombtext';
+  font-size: 3rem;
+  font-weight: 100;
+  border: 1px solid #868686;
+  color: #868686;
+}
+
+
+#exploded{
+  position: relative;
+  margin-top: 20%;
+  margin-left: 36%;
+  margin-right: 34%;
+  font-family: 'Bombtext';
+  font-size: 3rem;
+  font-weight: 100;
+  border: 1px solid #868686;
+  color: #868686;
+}
+
+#defusebtn {
+  display: flex;
+  margin-left: 37%;
+  border-radius: 50px;
+  white-space: nowrap;
+  position: relative;
+  font-family: 'Bombtext';
+  font-style: normal;
+  font-size: 2rem;
+  line-height: 50px;
+  text-align: center;
+  background-color: #303030;
+}
+#bunkerbtn{
+    
+    display: flex;
+    margin-left: 42%;
+    margin-top: 10%;
+    border-radius: 50px;
+    white-space: nowrap;
+    position: relative;
+    font-family: 'Bombtext';
+    font-style: normal;
+    font-size: 2rem;  
+    line-height: 50px;
+    text-align: center;
+    background-color: #293032;
+    color: azure;
+  
+}
