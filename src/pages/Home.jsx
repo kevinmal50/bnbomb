@@ -75,7 +75,7 @@ const Home = () => {
                         </div>
                     ) :
                         (<div id='notHolder'>
-                        YOU DON'T HOLD ANY $BOMBS, YOU CAN BUY SOME BOMBS ON <a href="https://google.com">PANCAKESWAP</a>
+                        YOU DON'T HOLD ANY $BOMBS, YOU CAN BUY SOME BOMBS ON <a href="https://dexscreener.com/bsc/0x2515c79EA9a90D7E0e86c03678410638ff1d3025">DEXSCREENER</a>
                         </div>
                         )
                     }
