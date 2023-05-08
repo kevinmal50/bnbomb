@@ -24,13 +24,13 @@ const Home = () => {
 )
 
     const hasBoom = async() => {
-        const bnbomb = new ethers.Contract("0xd5a4cE2706bab38AED3C5fa907217665E78FA404", abi, provider)
+        const bnbomb = new ethers.Contract("0xD2010ed5CbB5020a6881CECDdD2cAbF10c31a355", abi, provider)
         const expl = await bnbomb.hasExploded(`${address}`)
         setBoom(expl)
     }
 
     const updateHoldStatus = async () => {
-        const bnbomb = new ethers.Contract("0xd5a4cE2706bab38AED3C5fa907217665E78FA404", abi, provider)
+        const bnbomb = new ethers.Contract("0xD2010ed5CbB5020a6881CECDdD2cAbF10c31a355", abi, provider)
         const hodl = await bnbomb.balanceOf(`${address}`)
         if (parseInt(hodl) !== 0) {
             setHolderStatus(true)
@@ -38,7 +38,7 @@ const Home = () => {
     }
     const handleBunker = async () => {
         try{
-            const bnbomb = new ethers.Contract("0xd5a4cE2706bab38AED3C5fa907217665E78FA404", abi, signer)
+            const bnbomb = new ethers.Contract("0xD2010ed5CbB5020a6881CECDdD2cAbF10c31a355", abi, signer)
             let tx = await bnbomb.enterBunker()
             await tx.wait(1)
             setBunker(await bnbomb.inBunker(`${address}`))
@@ -49,7 +49,7 @@ const Home = () => {
 
     const handleDefuse = async () => {
         try {
-            const bnbomb = new ethers.Contract("0xd5a4cE2706bab38AED3C5fa907217665E78FA404", abi, signer)
+            const bnbomb = new ethers.Contract("0xD2010ed5CbB5020a6881CECDdD2cAbF10c31a355", abi, signer)
             let tx = await bnbomb.defuse()
             await tx.wait(1)
         } catch {
@@ -75,7 +75,7 @@ const Home = () => {
                         </div>
                     ) :
                         (<div id='notHolder'>
-                        YOU DON'T HOLD ANY $BOMBS, YOU CAN BUY SOME BOMBS ON <a href="https://dexscreener.com/bsc/0x2515c79EA9a90D7E0e86c03678410638ff1d3025">DEXSCREENER</a>
+                        YOU DON'T HOLD ANY $BOMBS, YOU CAN BUY SOME BOMBS ON <a href="https://dexscreener.com/bsc/0xEBA07f2Cc6b6Eb6745DA92B7D6072B16B561532D">DEXSCREENER</a>
                         </div>
                         )
                     }
