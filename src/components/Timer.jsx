@@ -63,7 +63,7 @@ const Timer = ({ isCon, hsb, hld, address, provider, inBunker }) => {
             {inBunker ? (<div></div>) : ( <><div id="timer">{timerDay}:{timerHours}:{timerMin}:{timerSec}
                 <div id="defuse-btn">
                     <button id='defusebtn' onClick={hld}>
-                        Defuse the bomb
+                        DEFUSE THE BOMB
                     </button>
                 </div></div> <br /></>)}
            

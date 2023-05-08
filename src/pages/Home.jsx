@@ -69,7 +69,7 @@ const Home = () => {
                         <div>
                             {boom ? (<div id='exploded'>YOUR WALLET EXPLODED</div>) : (<>
                                <Timer hld={handleDefuse} hsb={hasBoom} isCon={isConnected} address={address} provider={provider} inBunker={bkr} />
-                               <button id='bunkerbtn' onClick={handleBunker}>Enter the bunker</button>
+                               <button id='bunkerbtn' onClick={handleBunker}>ENTER THE BUNKER</button>
                                </>
                             )}
                         </div>
