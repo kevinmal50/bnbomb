@@ -60,7 +60,7 @@ const Home = () => {
     return (
         <div className='home'>
             <div id="cnbtn">
-                <ConnectButton accountStatus="address" chainStatus="none" showBalance={false} />
+                <ConnectButton  accountStatus="address" chainStatus="none" showBalance={false} />
             </div>
             {isConnected ? (
 

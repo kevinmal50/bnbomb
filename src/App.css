@@ -98,3 +98,34 @@
     color: azure;
   
 }
+
+@media only screen and (max-width: 1024px) {
+  .home {
+    position: absolute;
+    width: 20vw;
+    height: 20vh;
+  
+    background: radial-gradient(50% 50% at 50% 50%, #303030 57%, #141414 100%);
+  }
+  #rules {
+    position: relative;
+    top: 15%;
+    margin-left: 2%;
+    
+    margin-right: 2%;
+    font-family: 'Bombtext';
+    font-size: 4px;
+    font-weight: 100;
+    border: 0.5px solid #868686;
+    
+    color: #868686;
+  }
+  #cnbtn {
+    position: absolute;
+    font-size: 4px;
+    margin-top: -10px;
+    margin-left: 5vh;
+    width: 4vw;
+    height: 1vh;
+  }
+}
