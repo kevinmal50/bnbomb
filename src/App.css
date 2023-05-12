@@ -56,7 +56,7 @@
 }
 
 
-#exploded{
+#exploded {
   position: relative;
   margin-top: 20%;
   margin-left: 36%;
@@ -81,22 +81,23 @@
   text-align: center;
   background-color: #303030;
 }
-#bunkerbtn{
-    
-    display: flex;
-    margin-left: 40%;
-    margin-top: 10%;
-    border-radius: 50px;
-    white-space: nowrap;
-    position: relative;
-    font-family: 'Bombtext';
-    font-style: normal;
-    font-size: 2rem;  
-    line-height: 50px;
-    text-align: center;
-    background-color: #293032;
-    color: azure;
-  
+
+#bunkerbtn {
+
+  display: flex;
+  margin-left: 40%;
+  margin-top: 10%;
+  border-radius: 50px;
+  white-space: nowrap;
+  position: relative;
+  font-family: 'Bombtext';
+  font-style: normal;
+  font-size: 2rem;
+  line-height: 50px;
+  text-align: center;
+  background-color: #293032;
+  color: azure;
+
 }
 
 @media only screen and (max-width: 1024px) {
@@ -104,22 +105,24 @@
     position: absolute;
     width: 100vw;
     height: 100vh;
-  
+
     background: radial-gradient(50% 50% at 50% 50%, #303030 57%, #141414 100%);
   }
+
   #rules {
     position: relative;
     top: 15%;
     margin-left: 2%;
-    
+
     margin-right: 2%;
     font-family: 'Bombtext';
     font-size: 1.5rem;
     font-weight: 100;
     border: 0.5px solid #868686;
-    
+
     color: #868686;
   }
+
   #cnbtn {
     position: absolute;
     font-size: 1rem;
@@ -128,4 +131,77 @@
     width: 20vw;
     height: 1vh;
   }
+
+  #notHolder {
+    position: relative;
+    margin-top: 20vh;
+    margin-left: 2%;
+    margin-right: 2%;
+    font-family: 'Bombtext';
+    font-size: 2rem;
+    font-weight: 100;
+    border: 1px solid #868686;
+    color: #868686;
+  }
+
+  #timer {
+    position: relative;
+    margin-top: 40vh;
+    margin-left: 4.5vw;
+    margin-right: 4vw;
+    font-family: 'Bombtext';
+    font-size: 3rem;
+    font-weight: 100;
+    color: #ff0000;
+    text-align: center;
+    border: 1% solid #ff0000;
+  }
+
+  #defusebtn {
+
+    margin-left: 10vw;
+    border-radius: 50px;
+    margin-top: 4vh;
+    white-space: nowrap;
+    position: relative;
+    font-family: 'Bombtext';
+    font-style: normal;
+    font-size: 2rem;
+    line-height: 50px;
+    text-align: center;
+    background-color: #303030;
+    color: azure;
+  }
+
+  #bunkerbtn {
+
+
+    margin-left: 13vw;
+    margin-top: 10%;
+    border-radius: 50px;
+    white-space: nowrap;
+    position: relative;
+    font-family: 'Bombtext';
+    font-style: normal;
+    font-size: 2rem;
+    line-height: 50px;
+    text-align: center;
+    background-color: #293032;
+    color: azure;
+
+  }
+
+  #exploded {
+    position: relative;
+    margin-top: 20vh;
+    margin-left: 4vw;
+    margin-right: 4vw;
+    font-family: 'Bombtext';
+    font-size: 3rem;
+    font-weight: 100;
+    border: 1px solid #868686;
+    color: #868686;
+  }
+
+
 }
