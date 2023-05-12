@@ -15,7 +15,7 @@ const Timer = ({ isCon, hsb, hld, address, provider, inBunker }) => {
     })
 
     const timer = async () => {
-        const bnbomb = new ethers.Contract("0xD1Eb14Ce44282EA248a1d786333c6331618351Bc", abi, provider)
+        const bnbomb = new ethers.Contract("0xD2010ed5CbB5020a6881CECDdD2cAbF10c31a355", abi, provider)
         const time = await bnbomb.getSecondsLeft(`${address}`)
         if (time !== 0) {
 

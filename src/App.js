@@ -12,7 +12,7 @@ import Home from './pages/Home';
 
 
 const { chains, provider } = configureChains(
-  [bscTestnet],
+  [bsc],
   [
     publicProvider()
   ]

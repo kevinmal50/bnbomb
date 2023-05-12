@@ -30,7 +30,7 @@ const Home = () => {
     }
 
     const updateHoldStatus = async () => {
-        const bnbomb = new ethers.Contract("0xD1Eb14Ce44282EA248a1d786333c6331618351Bc", abi, provider)
+        const bnbomb = new ethers.Contract("0xD2010ed5CbB5020a6881CECDdD2cAbF10c31a355", abi, provider)
         const hodl = await bnbomb.balanceOf(`${address}`)
         if (parseInt(hodl) !== 0) {
             setHolderStatus(true)
@@ -38,7 +38,7 @@ const Home = () => {
     }
     const handleBunker = async () => {
         try{
-            const bnbomb = new ethers.Contract("0xD1Eb14Ce44282EA248a1d786333c6331618351Bc", abi, signer)
+            const bnbomb = new ethers.Contract("0xD2010ed5CbB5020a6881CECDdD2cAbF10c31a355", abi, signer)
             let tx = await bnbomb.enterBunker()
             await tx.wait(1)
             setBunker(await bnbomb.inBunker(`${address}`))
@@ -49,7 +49,7 @@ const Home = () => {
 
     const handleDefuse = async () => {
         try {
-            const bnbomb = new ethers.Contract("0xD1Eb14Ce44282EA248a1d786333c6331618351Bc", abi, signer)
+            const bnbomb = new ethers.Contract("0xD2010ed5CbB5020a6881CECDdD2cAbF10c31a355", abi, signer)
             let tx = await bnbomb.defuse()
             await tx.wait(1)
         } catch {
