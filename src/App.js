@@ -37,7 +37,8 @@ function App() {
   return (
     <WagmiConfig client={wagmiClient}>
       <RainbowKitProvider chains={chains}  modalSize={(()=>{if(window.innerHeight<1024){  return "compact"}return"wide"})} theme={darkTheme({
-        accentColor: "#141414"
+        accentColor: "#141414",
+        borderRadius:'small',
       })}>
         
         <Home />

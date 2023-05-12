@@ -102,8 +102,8 @@
 @media only screen and (max-width: 1024px) {
   .home {
     position: absolute;
-    width: 20vw;
-    height: 20vh;
+    width: 100vw;
+    height: 100vh;
   
     background: radial-gradient(50% 50% at 50% 50%, #303030 57%, #141414 100%);
   }
@@ -114,7 +114,7 @@
     
     margin-right: 2%;
     font-family: 'Bombtext';
-    font-size: 4px;
+    font-size: 1.5rem;
     font-weight: 100;
     border: 0.5px solid #868686;
     
@@ -122,10 +122,10 @@
   }
   #cnbtn {
     position: absolute;
-    font-size: 4px;
+    font-size: 1rem;
     margin-top: -10px;
-    margin-left: 5vh;
-    width: 4vw;
+    margin-left: 35vh;
+    width: 20vw;
     height: 1vh;
   }
 }
